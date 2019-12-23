@@ -1,7 +1,7 @@
 import React from 'react';
 import './Sidebar.css';
 
-const Sidebar = props => {
+const Sidebar = () => {
     return(
        <nav className="side-drawer">
         <ul>

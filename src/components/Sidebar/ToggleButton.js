@@ -1,7 +1,7 @@
 import React from 'react';
 import './ToggleButton.css';
 
-const toggleButton = props => {
+const toggleButton = () => {
     return ( 
     <div>
         <button className="toggle-button">
