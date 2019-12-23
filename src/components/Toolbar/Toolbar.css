@@ -2,9 +2,10 @@
 
 .toolbar{
     display:flex;
-    justify-content: space-around;
-    align-items: center;
-    min-height:8vh;
+    justify-content: space-around; 
+    top:0;
+    left:0;
+    min-height: 56px;
     font-family: 'Raleway', sans-serif;
     background-color: rgb(2, 2, 59);
 }
@@ -13,11 +14,14 @@
     color:white;
     text-decoration: none;
     font-size:1.5rem;
+    margin-left:1rem;
 }
 
 .toolbar__navigation{
     display:flex;
     width:60%;
+    align-items: center;
+    padding:0 1rem;
 }
 
 .spacer{
@@ -45,6 +49,7 @@
     color: white;
     text-decoration:none;
     letter-spacing:3px;
+    font-size:20px;
 }
 
 .toolbar_navigation-items a:hover,
