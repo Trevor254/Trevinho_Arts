@@ -1,0 +1,54 @@
+/*-------------------------NavBAR---------------------------------------*/
+
+.toolbar{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height:8vh;
+    font-family: 'Raleway', sans-serif;
+    background-color: rgb(2, 2, 59);
+}
+
+.toolbar_logo{
+    color:white;
+    text-decoration: none;
+    font-size:1.5rem;
+}
+
+.toolbar__navigation{
+    display:flex;
+    width:60%;
+}
+
+.spacer{
+    flex:1;
+}
+
+.toolbar_navigation-items{
+    list-style: none;
+  
+}
+
+.toolbar_navigation-items ul{
+    list-style: none;
+    margin: 0;
+    padding:0;
+    display:flex;
+}
+
+.toolbar_navigation-items li{
+    padding:1.5rem;
+    letter-spacing:3px;
+}
+
+.toolbar_navigation-items a {
+    color: white;
+    text-decoration:none;
+    letter-spacing:3px;
+}
+
+.toolbar_navigation-items a:hover,
+.toolbar_navigation-items a:active {
+    color: rgb(17, 17, 121)
+}
+
