@@ -19,19 +19,23 @@ class App extends React.Component{
      })
   }
 
+  //Close the side bar
+  BackdropClickHandler = () => {
+    this.setState({
+      SidebarOpen:false
+    })
+  }
+
   render(){
-    let sideDrawer;
     let backdrop;
 
     if(this.state.SidebarOpen) {
-      sideDrawer = <Sidebar/>;
-      backdrop = <Backdrop/>
+      backdrop = <Backdrop click={this.BackdropClickHandler}/>
     }
     return(
        <div style={{height:'100%'}}>
           <Toolbar toggleClickHandler = {this.ToggleClick}/>
-
-          {sideDrawer}
+          <Sidebar show={this.state.SidebarOpen}/>
           {backdrop}
   
        </div>

@@ -8,7 +8,7 @@ const Toolbar = (props) => {
 
             <nav className="toolbar__navigation">
 
-                <div>
+                <div className = "toolbar__toggle-button">
                   <ToggleButton click={props.toggleClickHandler} />
                 </div>
 
