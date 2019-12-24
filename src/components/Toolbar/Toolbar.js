@@ -2,12 +2,14 @@ import React from 'react';
 import './Toolbar.css';
 import ToggleButton from '../Sidebar/ToggleButton';
 
-const Toolbar = () => {
+const Toolbar = (props) => {
     return(
         <header className="toolbar">
+
             <nav className="toolbar__navigation">
+
                 <div>
-                  <ToggleButton />
+                  <ToggleButton click={props.toggleClickHandler} />
                 </div>
 
                 <div className="toolbar_logo">
@@ -17,6 +19,7 @@ const Toolbar = () => {
                 <div className="spacer"/>
 
                 <div className="toolbar_navigation-items">
+
                    <ul>
                        <li><a href="/">Home</a></li>
                        <li><a href="/">About</a></li>
@@ -24,8 +27,11 @@ const Toolbar = () => {
                        <li><a href="/">Cart</a></li>
                        <li><a href="/">Contact</a></li>
                    </ul>
+
                 </div>
+
             </nav>
+
         </header>
     )
 }
