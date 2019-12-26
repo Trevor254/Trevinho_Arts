@@ -1,11 +1,17 @@
 import React from 'react';
+import { BrowserRouter, Route, Switch} from 'react-router-dom';
+import './App.css';
+
 import Toolbar from './components/Toolbar/Toolbar';
 import Sidebar from './components/Sidebar/Sidebar';
 import Backdrop from './components/Backdrop/Backdrop';
+import Home from './components/Home';
+import About from './components/About';
+// import Gallery from './components/Gallery';
+// import Cart from './components/Cart';
+// import Contact from './components/Contact';
 
-
-
-class App extends React.Component{
+   class App extends React.Component{
 
   state = {
     SidebarOpen: false
@@ -33,12 +39,21 @@ class App extends React.Component{
       backdrop = <Backdrop click={this.BackdropClickHandler}/>
     }
     return(
+      <BrowserRouter>
        <div style={{height:'100%'}}>
           <Toolbar toggleClickHandler = {this.ToggleClick}/>
           <Sidebar show={this.state.SidebarOpen}/>
           {backdrop}
-  
-       </div>
+        </div>
+        <div>
+          <Switch>
+            <Route path="/" component={Home} exact/>
+            <Route path="/about" component={About}/>
+            
+          </Switch>
+        </div>
+      </BrowserRouter>
+      
     )
   }
 }
