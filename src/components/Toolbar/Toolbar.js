@@ -13,7 +13,7 @@ const Toolbar = (props) => {
                 </div>
 
                 <div className="toolbar_logo">
-                  <p>THE LOGO</p>
+                  <p>TREVINHO ARTS</p>
                 </div>
 
                 <div className="spacer"/>

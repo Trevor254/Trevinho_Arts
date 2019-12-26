@@ -9,6 +9,9 @@ const Sidebar = (props) => {
   }
     return(
        <nav className={sidebarClasses}>
+         <div className="side-logo">
+           <p>TREVINHO ARTS</p>
+         </div>
         <ul>
           <li><a href="/">Home</a></li>
           <li><a href="/">About</a></li>

@@ -40,6 +40,14 @@
     color:rgb(12, 12, 144);
 }
 
+.side-logo{
+    color:white;
+    text-decoration: none;
+    font-size:1.5rem;
+    margin-left:1rem;
+    margin-top: 15px;
+}
+
 
 @media (min-width: 769px) {
     .side-drawer{
