@@ -5,6 +5,7 @@ import './App.css';
 import Toolbar from './components/Toolbar/Toolbar';
 import Sidebar from './components/Sidebar/Sidebar';
 import Backdrop from './components/Backdrop/Backdrop';
+//import Footer from './components/Footer/Footer';
 import Home from './components/Home';
 import About from './components/About';
 // import Gallery from './components/Gallery';
