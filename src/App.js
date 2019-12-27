@@ -8,6 +8,7 @@ import Backdrop from './components/Backdrop/Backdrop';
 //import Footer from './components/Footer/Footer';
 import Home from './components/Home';
 import About from './components/About';
+import Footer from './components/Footer/Footer';
 // import Gallery from './components/Gallery';
 // import Cart from './components/Cart';
 // import Contact from './components/Contact';
@@ -45,6 +46,7 @@ import About from './components/About';
           <Toolbar toggleClickHandler = {this.ToggleClick}/>
           <Sidebar show={this.state.SidebarOpen}/>
           {backdrop}
+         
         </div>
         <div>
           <Switch>
@@ -53,6 +55,7 @@ import About from './components/About';
             
           </Switch>
         </div>
+        <Footer/>
       </BrowserRouter>
       
     )
