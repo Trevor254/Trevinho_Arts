@@ -15,6 +15,7 @@ class Contact extends React.Component{
                 <p align="center" className="text">
                     Hey there! Hopefully my art pieces have sparked your interest. If you wish to have one or request a unique sketch of your own, feel free to contact me with the provided details below;
                 </p>
+                <br/>
                 
             </div>
         )
