@@ -11,7 +11,7 @@ body{
     background-size: cover;
 }
 
-/*-----------------------Home Page-------------------*/
+/*-------------------------------------------------------Home Page----------------------------------------------*/
 
 .title-logo{
     max-width:100%;
@@ -32,6 +32,8 @@ h3{
     color: cornsilk;
     opacity: 0.7;
 }
+
+
 
 .paragraph-1{
     width: 100%;
@@ -70,7 +72,7 @@ h3{
     opacity:0.7;
 }
 
-/*-------------------------------About Page------------------------------*/
+/*--------------------------------------------------------About Page-------------------------------------------------------------------------*/
 
 .responsive-center{
     max-width:100%;
@@ -85,6 +87,7 @@ h2{
     font-size: 80px;
     font-family: 'Raleway', sans-serif;
     color:whitesmoke;
+    opacity: 0.7;
 }
 
 p{
@@ -93,4 +96,23 @@ p{
     font-family: 'Raleway', sans-serif;
     color:whitesmoke;
     justify-content: space-around;
+    opacity: 0.7;
+}
+
+/*---------------------------------------------------------Contact Page------------------------------------------------------------------*/
+
+.contact-title{
+    font-size:75px;
+    font-family:'Raleway',sans-serif;
+    color:whitesmoke;
+    opacity: 0.7;
+}
+
+.text{
+    width:auto;
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+    color:whitesmoke;
+    justify-content: space-around;
+    opacity: 0.7;
 }

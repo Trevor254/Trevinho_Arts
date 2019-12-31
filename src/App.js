@@ -8,10 +8,10 @@ import Backdrop from './components/Backdrop/Backdrop';
 //import Footer from './components/Footer/Footer';
 import Home from './components/Home';
 import About from './components/About';
-import Footer from './components/Footer/Footer';
+//import Footer from './components/Footer/Footer';
 // import Gallery from './components/Gallery';
 // import Cart from './components/Cart';
-// import Contact from './components/Contact';
+ import Contact from './components/Contact';
 
    class App extends React.Component{
 
@@ -52,10 +52,10 @@ import Footer from './components/Footer/Footer';
           <Switch>
             <Route path="/" component={Home} exact/>
             <Route path="/about" component={About}/>
-            
+            <Route path="/contact" component={Contact}/>
           </Switch>
         </div>
-        <Footer/>
+        
       </BrowserRouter>
       
     )

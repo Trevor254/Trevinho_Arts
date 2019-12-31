@@ -16,8 +16,8 @@ const About = () => {
         My favorite subjects were Physics and Geography. Math was my kryptonite. I'd perform quite poorly in math mostly because of the attitude i had towards it. Fortunately for me,
         my attitude changed and so did my grades for math. Having completed school in 2016, i then took up a course in Accounting at Oshwal College. Nairobi,kenya which was 6 months. Long story short 
         i came to discover accounting wasn't for me either so i left oshwal the same way i came in, with nothing. After that i tried my luck in Business Information Technology, a one
-        year course offered at Strathmore University. Nairobi,Kenya . Along the way i got interested in a certain field in IT which known as cyber security so that pushed me to put effort into import PropTypes from 'prop-types'
-        although i got held back a year i managed to graduate later on. I am pursuing to learn cyber security so as to become a cyber security expert
+        year course offered at Strathmore University. Nairobi,Kenya . Along the way i got interested in a certain field in IT which known as cyber security so that pushed me to put effort into my studies a
+        nd successfully managed to graduate with a diploma in Business IT. I am pursuing to learn cyber security so as to become a cyber security expert
           </p>
         </div>
     )
