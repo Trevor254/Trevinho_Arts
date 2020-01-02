@@ -1,7 +1,38 @@
 import React from 'react';
-
 import logo from '../images/6e0f361a-81df-443a-a042-f35ecaeeb9df_200x200.png'
 class Contact extends React.Component{
+    constructor(props){
+        super(props)
+        this.state = {
+            firstName:'',
+            lastName:'',
+            email:'',
+            textArea:''
+        }
+    }
+
+    onfirstNameChange(event) {
+        this.setState({firstName: event.target.value})
+      }
+    
+    onlastNameChange(event){
+        this.setState({lastName:event.target.value})
+    }
+    
+    onEmailChange(event) {
+        this.setState({email: event.target.value})
+    }
+    
+    ontextAreaChange(event) {
+        this.setState({textArea: event.target.value})
+    }
+    
+    handleSubmit( event ) {
+        event.preventDefault();
+        console.log(this.state);
+      }
+
+
     render(){
         return (
             <div>
@@ -9,6 +40,7 @@ class Contact extends React.Component{
                    <img className="title-logo" src={logo} alt=""/>
                 </div>
                 <br/>
+                
                 <h2 align="center" className="contact-title">Contact Details</h2>
                 <br/>
                 <br/>
@@ -16,10 +48,97 @@ class Contact extends React.Component{
                     Hey there! Hopefully my art pieces have sparked your interest. If you wish to have one or request a unique sketch of your own, feel free to contact me with the provided details below;
                 </p>
                 <br/>
-                
+
+                <div>
+                    <ul className="list-container">
+                        <li> <i className="fab fa-instagram"></i> @trevinho_arts</li>
+                        <li> <i className="fab fa-whatsapp"></i> +254 773 379 517</li>
+                        <li> <i className="fab fa-twitter"></i> @Trevor2542</li>
+                    </ul>
+                </div>
+
+                <br/>
+               
+                 <div className="container">
+                  <form>
+                      <div className="row">
+                          <div className="col-25">
+                              <label  className="label">First Name</label>
+                          </div>
+                          <div className="col-75">
+                              <input 
+                                 className="input"
+                                 name='firstName'
+                                 type='text'
+                                 placeholder='Your name..' 
+                                 value={this.state.firstName} 
+                                 onChange={this.onfirstNameChange.bind(this)}
+                              />
+                          </div>
+                      </div>
+
+                      <div className="row">
+                          <div className="col-25">
+                              <label  className="label">Last Name</label>
+                          </div>
+                          <div className="col-75">
+                               <input 
+                                 className="input"
+                                 name='lastName'
+                                 type='text'
+                                 placeholder='Your last name..' 
+                                 value={this.state.lastName} 
+                                 onChange={this.onlastNameChange.bind(this)}
+                               />
+                          </div>
+                      </div>
+
+                      <div className="row">
+                         <div className="col-25">
+                            <label  className="label">Email</label>
+                         </div>
+                         <div className="col-75">
+                               <input 
+                                 className="input"
+                                 name='email'
+                                 type='text'
+                                 placeholder='Your email address..' 
+                                 value={this.state.email} 
+                                 onChange={this.onEmailChange.bind(this)}
+                               />
+                         </div>
+                       </div>
+                     
+                     <div className="row">
+                         <div className="col-25">
+                             <label  className="label">Your request</label>
+                         </div>
+                         <div className="col-75">
+                             <textarea
+                                className="textarea"
+                                name='textArea'
+                                placeholder='Type here...'
+                                value={this.state.textArea}
+                                onChange={this.ontextAreaChange.bind(this)}
+                              />
+                         </div>
+                     </div>
+                     
+                     <br/>
+                     <div className="row">
+                          <input 
+                          type="submit" 
+                          value="Submit"
+                          onClick={event => this.onSubmit(event)}
+                          />
+                     </div>
+                  </form>
+                </div> 
             </div>
         )
     }
 }
 
 export default Contact;
+
+ 
