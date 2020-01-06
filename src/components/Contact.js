@@ -27,8 +27,8 @@ class Contact extends React.Component{
         this.setState({textArea: event.target.value})
     }
     
-    handleSubmit( event ) {
-        event.preventDefault();
+    handleSubmit( e ) {
+        e.preventDefault();
         console.log(this.state);
       }
 
@@ -39,13 +39,16 @@ class Contact extends React.Component{
                 <div>
                    <img className="title-logo" src={logo} alt=""/>
                 </div>
+
                 <br/>
                 
                 <h2 align="center" className="contact-title">Contact Details</h2>
                 <br/>
                 <br/>
                 <p align="center" className="text">
-                    Hey there! Hopefully my art pieces have sparked your interest. If you wish to have one or request a unique sketch of your own, feel free to contact me with the provided details below;
+                    Hey there! Hopefully my art pieces have sparked your interest. 
+                    If you wish to have one or request a unique sketch of your own, 
+                    feel free to contact me with the provided details below;
                 </p>
                 <br/>
 
@@ -123,13 +126,13 @@ class Contact extends React.Component{
                               />
                          </div>
                      </div>
-                     
+
                      <br/>
                      <div className="row">
                           <input 
                           type="submit" 
                           value="Submit"
-                          onClick={event => this.onSubmit(event)}
+                          onClick={e => this.handleSubmit(e)}
                           />
                      </div>
                   </form>
