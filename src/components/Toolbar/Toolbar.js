@@ -1,6 +1,7 @@
 import React from 'react';
 import './Toolbar.css';
 import ToggleButton from '../Sidebar/ToggleButton';
+import logo from '../../images/6e0f361a-81df-443a-a042-f35ecaeeb9df_200x200.png'
 
 const Toolbar = (props) => {
     return(
@@ -13,7 +14,7 @@ const Toolbar = (props) => {
                 </div>
 
                 <div className="toolbar_logo">
-                  <p>TREVINHO ARTS</p>
+                  <img src={logo} alt=""/>
                 </div>
 
                 <div className="spacer"/>
