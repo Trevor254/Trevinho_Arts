@@ -43,17 +43,18 @@
 .toolbar_navigation-items li{
     padding:1.5rem;
     letter-spacing:3px;
+    
 }
 
-.toolbar_navigation-items a {
+.link{
     color: white;
     text-decoration:none;
     letter-spacing:3px;
     font-size:25px;
 }
 
-.toolbar_navigation-items a:hover,
-.toolbar_navigation-items a:active {
+.link:hover,
+.link:active {
     color: rgb(17, 17, 121)
 }
 

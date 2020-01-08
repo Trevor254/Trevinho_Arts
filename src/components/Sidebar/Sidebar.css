@@ -29,14 +29,14 @@
     margin:1rem 0;
 }
 
-.side-drawer a {
+.Link {
     color: rgb(231, 196, 231);
     text-decoration: none;
     font-size: 1.2rem;
 }
 
-.side-drawer a:hover,
-.side-drawer a:active{
+.Link:hover,
+.Link:active{
     color:rgb(12, 12, 144);
 }
 

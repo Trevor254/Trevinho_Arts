@@ -1,4 +1,5 @@
 import React from 'react';
+import {Link} from 'react-router-dom'
 import './Sidebar.css';
 
 const Sidebar = (props) => {
@@ -13,11 +14,21 @@ const Sidebar = (props) => {
            <p>TREVINHO ARTS</p>
          </div>
         <ul>
-          <li><a href="/">Home</a></li>
-          <li><a href="/about">About</a></li>
-          <li><a href="/gallery">Gallery</a></li>
-          <li><a href="/cart">Cart</a></li>
-          <li><a href="/contact">Contact</a></li>
+         <li>
+           <Link to="/" className="link">Home</Link>
+         </li>
+         <li>
+           <Link to="/about" className="link">About</Link>
+         </li>
+         <li>
+           <Link to="/gallery" className="link">Gallery</Link>
+         </li>
+         <li>
+           <Link to="/cart" className="link">Cart</Link>
+         </li>
+         <li>
+           <Link to="/contact" className="link">Contact</Link>
+         </li>
         </ul>
        </nav>
     )

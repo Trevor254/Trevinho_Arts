@@ -1,4 +1,6 @@
 import React from 'react';
+ import {Link} from 'react-router-dom';
+
 import './Toolbar.css';
 import ToggleButton from '../Sidebar/ToggleButton';
 import logo from '../../images/6e0f361a-81df-443a-a042-f35ecaeeb9df_200x200.png'
@@ -22,11 +24,21 @@ const Toolbar = (props) => {
                 <div className="toolbar_navigation-items">
 
                    <ul>
-                       <li><a href="/">Home</a></li>
-                       <li><a href="/about">About</a></li>
-                       <li><a href="/gallery">Gallery</a></li>
-                       <li><a href="/cart">Cart</a></li>
-                       <li><a href="/contact">Contact</a></li>
+                      <li>
+                          <Link to="/" className="link">Home</Link>
+                      </li>
+                      <li>
+                          <Link to="/about" className="link">About</Link>
+                      </li>
+                      <li>
+                          <Link to="/gallery" className="link">Gallery</Link>
+                      </li>
+                      <li>
+                          <Link to="/cart" className="link">Cart</Link>
+                      </li>
+                      <li>
+                          <Link to="/contact" className="link" >Contact</Link>
+                      </li>
                    </ul>
 
                 </div>
@@ -38,3 +50,4 @@ const Toolbar = (props) => {
 }
 
 export default Toolbar;
+
