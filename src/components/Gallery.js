@@ -1,13 +1,22 @@
 import React from 'react';
-import Gallery2 from '../components/Gallery2'
+//import Gallery2 from '../components/Gallery2'
 
 
 class Gallery extends React.Component{
+    constructor(){
+        super()
+        this.state = {
+            products:[
+                
+            ]
+        }
+    }
     render(){
         return (
-            <div>
-               <Gallery2/>
-            </div>
+              // <Gallery2/>       
+              <div className="container">
+
+              </div>
         )
     }
 }
