@@ -25,9 +25,11 @@ const Home = () => {
         <br/>
         <br/>
         <p align="center" className="text-2">
-        My art work is based on the concept of pencil media and draws on various inspirations be it 
-         famous people , landscapes, animals, fictional characters, cultural media, imagination from 
-         the mind, i see it as a way to express or communicate my thoughts to the world.
+        I see art as a form or way to communicate thoughts and expressions to the world.
+        My art work is based on the concept of pencil media as that was the type of art media that i saw fit
+        and draws on various inspirations be it famous people , landscapes, animals, fictional characters, cultural media etc. 
+        Most of my sketches are by reference from pictures that are gotten from the Internet upon which i attempt to draw exactly
+        as what the picture depicts with successful attempts.
         </p>
       </div>
   

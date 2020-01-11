@@ -1,22 +1,25 @@
 import React from 'react';
-//import Gallery2 from '../components/Gallery2'
+//import Gallery2 from '../components/Gallery2';
+import Data from '../Data'
 
 
 class Gallery extends React.Component{
     constructor(){
         super()
         this.state = {
-            products:[
-                
-            ]
+            products:Data
         }
     }
     render(){
+        console.log(this.state.products)
         return (
-              // <Gallery2/>       
-              <div className="container">
+            <div className="divcontainer">
+                
+                <div className="D-row">
+                   
+                </div>
+            </div>
 
-              </div>
         )
     }
 }
