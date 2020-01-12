@@ -1,12 +1,12 @@
 import React, {Component} from 'react';
-import {Data,detailImage} from './Data';
+import {storeData,detailImage} from './Data';
 
 const ProductContext = React.createContext()
 //provider
 //consumer
 class ProductProvider extends Component{
     state = {
-        products:Data,
+        products:storeData,
         detailImage:detailImage
     }
 

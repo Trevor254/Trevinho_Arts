@@ -1,15 +1,9 @@
 import React from 'react';
-import {Data} from '../Data'
 import {ProductConsumer} from '../Context';
 import Gallery2 from './Gallery2';
 
 class Gallery extends React.Component{
-    constructor(){
-        super()
-        this.state = {
-            products:Data
-        }
-    }
+   
     render(){
         return (
             <div className="divcontainer">

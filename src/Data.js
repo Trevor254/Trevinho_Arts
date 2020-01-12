@@ -1,8 +1,8 @@
- export const Data = [
+ export const storeData = [
     {
         id:1,
         title:'Friednship',
-        img:'images/Best_Friends.jpg',
+        img:"images/Best_Friends.jpg",
         price:'Not for sale',
         info:"This sketch serves as an inspiration and dedication to a friendship that extends 14 years and still on going. We no longer refer to each other as friends but more of brothers"
     },
@@ -47,7 +47,7 @@
     {
         id:6,
         title:'Madara Uchiha',
-        img:'images/Madara_Uchiha',
+        img:'images/Madara_Uchiha.jpg',
         price:500,
         info:"This sketch is inspired by the villainous fictional character known as Madara Uchiha from the popular anime Naruto. One of my favorite characters in anime, he believed in achieving peace but did it in a way that villinified him throughout the story",
         inCart:false,
