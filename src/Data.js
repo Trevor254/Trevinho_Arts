@@ -1,4 +1,4 @@
- const Data = [
+ export const Data = [
     {
         id:1,
         title:'Friednship',
@@ -110,18 +110,18 @@
         inCart:false,
         count:0,
         total:0
-    },
-    {
-        id:13,
-        title:'Zaraki Kenpachi',
-        img:'images/Zaraki_Kenpachi.jpg',
-        price:600,
-        info:"",
-        inCart:false,
-        count:0,
-        total:0
     }
 ]
 
+export const detailImage =   {
+    id:13,
+    title:'Zaraki Kenpachi',
+    img:'images/Zaraki_Kenpachi.jpg',
+    price:600,
+    info:"",
+    inCart:false,
+    count:0,
+    total:0
+}
 
-export default Data;
+

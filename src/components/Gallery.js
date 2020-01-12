@@ -1,7 +1,7 @@
 import React from 'react';
-//import Gallery2 from '../components/Gallery2';
-import Data from '../Data'
+import {Data} from '../Data'
 import {ProductConsumer} from '../Context';
+import Gallery2 from './Gallery2';
 
 class Gallery extends React.Component{
     constructor(){
@@ -11,13 +11,14 @@ class Gallery extends React.Component{
         }
     }
     render(){
-        console.log(this.state.products)
         return (
             <div className="divcontainer">
                 <div className="D-row">
                     <ProductConsumer>
-                        {(hello)=>{
-                           return <h1>{hello}</h1>
+                        {(value)=>{
+                           return value.products.map( product => {
+                               return <Gallery2 key={product.id} product={product}/>
+                           })
                         }}
                     </ProductConsumer>
                 </div>
