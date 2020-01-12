@@ -1,7 +1,7 @@
 import React from 'react';
 import { BrowserRouter, Route, Switch} from 'react-router-dom';
 import './App.css';
-
+import {ProductProvider} from './Context';
 import Toolbar from './components/Toolbar/Toolbar';
 import Sidebar from './components/Sidebar/Sidebar';
 import Backdrop from './components/Backdrop/Backdrop';
@@ -12,6 +12,10 @@ import About from './components/About';
 import Gallery from './components/Gallery';
 //import Cart from './components/Cart';
 import Contact from './components/Contact';
+
+
+
+
 
    class App extends React.Component{
 
@@ -41,6 +45,7 @@ import Contact from './components/Contact';
       backdrop = <Backdrop click={this.BackdropClickHandler}/>
     }
     return(
+      <ProductProvider>
       <BrowserRouter>
        <div style={{height:'100%'}}>
           <Toolbar toggleClickHandler = {this.ToggleClick}/>
@@ -59,6 +64,7 @@ import Contact from './components/Contact';
         </div>
         
       </BrowserRouter>
+      </ProductProvider>
       
     )
   }
