@@ -1,6 +1,6 @@
 import React from 'react';
 
-import logo from '../images/6e0f361a-81df-443a-a042-f35ecaeeb9df_200x200.png'
+import logo from '../image2/6e0f361a-81df-443a-a042-f35ecaeeb9df_200x200.png'
 const Home = () => {
     return(
       <div>

@@ -1,10 +1,10 @@
 import React from 'react';
 
-const photo = require('../images/IMG_20190222_000414_762.jpg')
+const photo = require('../image2/IMG_20190222_000414_762.jpg')
 const About = () => {
     return(
         <div>
-          <h2 align="center">About Artist</h2>
+          <h1 align="center">About Artist</h1>
           <br/>
           <br/>
           <br/>

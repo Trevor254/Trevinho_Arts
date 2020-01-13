@@ -4,7 +4,7 @@
 }
 
 body{
-    background: url(./images/Kurosaki_Ichigo.jpg) no-repeat center center fixed;
+    background: url(./image2/Kurosaki_Ichigo.jpg) no-repeat center center fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -59,8 +59,8 @@ body{
   
 }
 
-h2{
-    font-size: 80px;
+h1{
+    font-size: 100px;
     font-family: 'Raleway', sans-serif;
     color:whitesmoke;
     opacity: 0.7;
