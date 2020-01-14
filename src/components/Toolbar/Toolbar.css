@@ -17,6 +17,14 @@
     margin-left:2rem;
 }
 
+.paragraph{
+    color:white;
+    text-decoration: none;
+    font-size:1 rem;
+    font-family:"Times New Roman", Times, serif ;
+    margin-left:2rem;
+}
+
 .toolbar__navigation{
     display:flex;
     width:100%;
