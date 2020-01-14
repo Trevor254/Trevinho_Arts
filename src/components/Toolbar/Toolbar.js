@@ -3,12 +3,13 @@ import React from 'react';
 
 import './Toolbar.css';
 import ToggleButton from '../Sidebar/ToggleButton';
-import logo from '../../image2/6e0f361a-81df-443a-a042-f35ecaeeb9df_200x200.png'
+import logo from '../../image2/eb055966-6724-43f8-bbcc-d50648a8de36_200x200(1).png'
 
 const Toolbar = (props) => {
     return(
-        <header className="toolbar">
 
+        <header className="toolbar">
+         
             <nav className="toolbar__navigation">
 
                 <div className = "toolbar__toggle-button">
@@ -16,7 +17,8 @@ const Toolbar = (props) => {
                 </div>
 
                 <div className="toolbar_logo">
-                  <img src={logo} alt=""/>
+                   <img className="title-logo" src={logo} alt=""/> 
+                   <p>TREVINHO ARTS</p>
                 </div>
 
                 <div className="spacer"/>
@@ -46,6 +48,8 @@ const Toolbar = (props) => {
             </nav>
 
         </header>
+        
+       
     )
 }
 

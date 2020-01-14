@@ -9,7 +9,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 //import Footer from './components/Footer/Footer';
 import Home from './components/Home';
 import About from './components/About';
-//import Footer from './components/Footer/Footer';
+import Footer from './components/Footer/Footer';
 import Gallery from './components/Gallery';
 import Details from './components/Details';
 //import Cart from './components/Cart';
@@ -63,7 +63,7 @@ import Contact from './components/Contact';
             <Route path="/details" component={Details}/>
             <Route path="/contact" component={Contact}/>
           </Switch>
-          
+          <Footer/>
         </div>
         
       </BrowserRouter>

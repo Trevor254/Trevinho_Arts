@@ -1,13 +1,6 @@
  export const storeData = [
     {
         id:1,
-        title:'Friednship',
-        img:"images/Best_Friends.jpg",
-        price:'Not for sale',
-        info:"This sketch serves as an inspiration and dedication to a friendship that extends 14 years and still on going. We no longer refer to each other as friends but more of brothers"
-    },
-    {
-        id:2,
         title:'Forgotten gem',
         img:'images/Forgotten.jpg',
         price:500,
@@ -16,7 +9,7 @@
         total:0
     },
     {
-        id:3,
+        id:2,
         title:'Hand Drawing',
         img:'images/Hand_Drawing.jpg',
         price:500,
@@ -25,8 +18,8 @@
         total:0
     },
     {
-        id:4,
-        title:'John_Snow',
+        id:3,
+        title:'John Snow',
         img:'images/John_Snow.jpg',
         price:600,
         info:"This sketch is inspired by the character known as John snow from the popular game of thrones series",
@@ -35,7 +28,7 @@
         total:0
     },
     {
-        id:5,
+        id:4,
         title:'Lady liberty',
         img:'images/lady_liberty.jpg',
         price:700,
@@ -45,7 +38,7 @@
         total:0
     },
     {
-        id:6,
+        id:5,
         title:'Madara Uchiha',
         img:'images/Madara_Uchiha.jpg',
         price:500,
@@ -55,14 +48,14 @@
         total:0
     },
     {
-        id:7,
-        title:'A Noble man',
+        id:6,
+        title:'Nobility',
         img:'images/Noble.jpg',
-        price:"Not for sale",
+        price:null,
         info:"This is a sketch of my father whom i see as a noble man for all the good he has done for the family. This drawing is a tribute to him",
     },
     {
-        id:8,
+        id:7,
         title:'Roberto Firmino',
         img:'images/Roberto_Firmino.jpg',
         price:500,
@@ -72,7 +65,7 @@
         total:0
     },
     {
-        id:9,
+        id:8,
         title:'Saw',
         img:'images/Saw.jpg',
         price:500,
@@ -82,8 +75,8 @@
         total:0
     },
     {
-        id:10,
-        title:'Slumber girl',
+        id:9,
+        title:'slumber girl',
         img:'images/Slumber.jpg',
         price:500,
         info:"",
@@ -92,8 +85,8 @@
         total:0
     },
     {
-        id:11,
-        title:'Vibrant',
+        id:10,
+        title:'vibrant',
         img:'images/Vibrant_Girl.jpg',
         price:600,
         info:"",
@@ -102,8 +95,8 @@
         total:0
     },
     {
-        id:12,
-        title:'Xxx Tentacion',
+        id:11,
+        title:'xxx tentacion',
         img:'images/xxx_tentacion.jpg',
         price:1000,
         info:"",
@@ -114,7 +107,7 @@
 ]
 
 export const detailImage =   {
-    id:13,
+    id:12,
     title:'Zaraki Kenpachi',
     img:'images/Zaraki_Kenpachi.jpg',
     price:600,
