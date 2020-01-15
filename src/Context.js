@@ -28,11 +28,13 @@ class ProductProvider extends Component{
             return {products : tempProducts}
         });
     }
-
+    
+    //function to display details
     handleDetail = () => {
         console.log('hello from detail')
     }
-
+    
+    //function to add item to cart
     addToCart = () => {
         console.log('hello from add to cart')
     }
