@@ -110,7 +110,7 @@ export const detailImage =   {
     title:'Zaraki Kenpachi',
     img:'images/Zaraki_Kenpachi.jpg',
     price:600,
-    info:"",
+    info:" This sketch is inspired from the fictional character by the name of Zaraki kenpachi from the bleach anime",
     inCart:false,
     count:0,
     total:0
