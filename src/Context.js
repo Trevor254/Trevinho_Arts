@@ -6,8 +6,27 @@ const ProductContext = React.createContext()
 //consumer
 class ProductProvider extends Component{
     state = {
-        products:storeData,
+        products:[],
         detailImage:detailImage
+    };
+
+    componentDidMount(){
+        this.setProducts();
+    }
+    
+    setProducts = () => {
+        // set tempProducts to empty array
+        let tempProducts = [];
+        //use forEach to loopthrough items in store data
+        storeData.forEach(item => {
+            //declare variable singleItem and assign it to item that lists out the item using spread operator
+            const singleItem = {...item};
+            tempProducts = [...tempProducts,singleItem];
+        })
+
+        this.setState(()=> {
+            return {products : tempProducts}
+        });
     }
 
     handleDetail = () => {
