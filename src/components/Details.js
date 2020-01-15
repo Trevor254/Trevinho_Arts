@@ -38,13 +38,14 @@ export default class Details extends Component {
                                    {/*buttons */}
                                    <div>
                                        <Link to='/Gallery'>
-                                         <ButtonContainer
-                                         disabled = {inCart ? true:false}
-                                         >
+                                         <ButtonContainer>
                                              Back to products
                                          </ButtonContainer>
                                        </Link>
-                                       <ButtonContainer>
+                                       <ButtonContainer    disabled = {inCart ? true:false}
+                                         onClick={()=>{
+                                             value.addToCart(id)
+                                         }}>
                                            {inCart ? "inCart" : "add to cart"}
                                        </ButtonContainer>
                                    </div>
