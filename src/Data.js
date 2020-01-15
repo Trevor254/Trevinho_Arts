@@ -51,7 +51,6 @@
         id:6,
         title:'Nobility',
         img:'images/Noble.jpg',
-        price:null,
         info:"This is a sketch of my father whom i see as a noble man for all the good he has done for the family. This drawing is a tribute to him",
     },
     {

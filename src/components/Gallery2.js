@@ -2,6 +2,7 @@ import React from 'react';
 import {Link} from 'react-router-dom';
 import styled from 'styled-components';
 import {ProductConsumer} from '../Context';
+import PropTypes from 'prop-types';
 
 class Gallery2 extends React.Component{
   
@@ -40,6 +41,16 @@ class Gallery2 extends React.Component{
             </ProductWrapper> 
         )
     }
+}
+
+Gallery2.propTypes = {
+    product:PropTypes.shape({
+        id:PropTypes.number,
+        img:PropTypes.string,
+        title:PropTypes.string,
+        price:PropTypes.number,
+        inCart:PropTypes.bool
+    }).isRequired
 }
 
 const ProductWrapper = styled.div`
