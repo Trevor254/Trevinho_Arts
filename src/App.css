@@ -23,28 +23,20 @@ body{
 
 
 .Main-title{
-    font-size:65px;
-    font-family:'Raleway',sans-serif;
-    color:whitesmoke;
-    opacity: 0.9;
-}
-
-.text-1{
-    width:auto;
-    font-size: 20px;
-    font-family: 'Raleway', sans-serif;
-    color:whitesmoke;
-    justify-content: space-around;
+    font-size:55px;
+    font-family:'Gelasio', serif;
+    color:rgb(149, 7, 7);
     opacity: 0.9;
 }
 
 .text-2{
     width:auto;
     font-size: 20px;
-    font-family: 'Raleway', sans-serif;
-    color:whitesmoke;
+    font-family:'Gelasio', serif;
+    font-weight: bold;
+    color:rgb(64, 7, 102);
     justify-content: space-around;
-    opacity: 0.9;
+    opacity: 1.9;
 }
 
 
@@ -59,35 +51,30 @@ body{
   
 }
 
-h1{
-    font-size: 100px;
-    font-family: 'Raleway', sans-serif;
-    color:whitesmoke;
-    opacity: 0.9;
+
+.header3{
+  font-size: 30px;
+  color:rgb(149, 7, 7);
 }
 
-p{
-    width:auto;
-    font-size: 20px;
-    font-family: 'Raleway', sans-serif;
-    color:whitesmoke;
-    justify-content: space-around;
-    opacity: 0.9;
+.text-light{
+  font-size: small;
+  letter-spacing:2px;
 }
 
 /*---------------------------------------------------------Contact Page------------------------------------------------------------------*/
 
 .contact-title{
-    font-size:75px;
-    font-family:'Raleway',sans-serif;
+    font-size:55px;
+    font-family:'Gelasio', serif;
     color:whitesmoke;
     opacity: 0.9;
 }
 
 .text{
     width:auto;
-    font-size: 20px;
-    font-family: 'Raleway', sans-serif;
+    font-size: 17px;
+    font-family:'Gelasio', serif;
     color:whitesmoke;
     justify-content: space-around;
     opacity: 0.9;

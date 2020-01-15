@@ -8,8 +8,8 @@ export default class Details extends Component {
     render() {
         return (
             <ProductConsumer>
-                {(value)=> {
-                   const {id,title,img,price,info,inCart} = value.detailImage;
+                { value => {
+                   const {id,title,img,price,info,inCart} = value.detailProduct;
                    return (
                        <div className = "container py-5">
                            {/* title */}
@@ -42,8 +42,10 @@ export default class Details extends Component {
                                              Back to products
                                          </ButtonContainer>
                                        </Link>
-                                       <ButtonContainer    disabled = {inCart ? true:false}
-                                         onClick={()=>{
+                                       <ButtonContainer 
+                                        cart  
+                                        disabled = {inCart ? true:false}
+                                        onClick={()=>{
                                              value.addToCart(id)
                                          }}>
                                            {inCart ? "inCart" : "add to cart"}

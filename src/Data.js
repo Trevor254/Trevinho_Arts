@@ -105,7 +105,7 @@
     }
 ]
 
-export const detailImage =   {
+export const detailProduct =   {
     id:1,
     title:'Zaraki Kenpachi',
     img:'images/Zaraki_Kenpachi.jpg',

@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {storeData,detailImage} from './Data';
+import {storeData,detailProduct} from './Data';
 
 const ProductContext = React.createContext()
 //provider
@@ -7,7 +7,7 @@ const ProductContext = React.createContext()
 class ProductProvider extends Component{
     state = {
         products:[],
-        detailImage:detailImage
+        detailProduct:detailProduct
     };
 
     componentDidMount(){
@@ -28,10 +28,18 @@ class ProductProvider extends Component{
             return {products : tempProducts}
         });
     }
+
+    getItem = (id) => {
+        const product = this.state.products.find(item => item.id === id);
+        return product;
+    }
     
     //function to display details upon click on image
-    handleDetail = () => {
-        console.log('hello from detail')
+    handleDetail = (id) => {
+        const product = this.getItem(id);
+        this.setState(()=>{
+            return { detailProduct:product}
+        })
     }
     
     //function to add item to cart
