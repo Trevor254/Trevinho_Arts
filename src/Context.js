@@ -29,7 +29,7 @@ class ProductProvider extends Component{
         });
     }
     
-    //function to display details
+    //function to display details upon click on image
     handleDetail = () => {
         console.log('hello from detail')
     }

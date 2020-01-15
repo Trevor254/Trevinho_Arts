@@ -106,7 +106,7 @@
 ]
 
 export const detailImage =   {
-    id:12,
+    id:1,
     title:'Zaraki Kenpachi',
     img:'images/Zaraki_Kenpachi.jpg',
     price:600,
