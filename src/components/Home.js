@@ -1,6 +1,6 @@
 import React from 'react';
 import { UncontrolledCarousel } from 'reactstrap';
-import logo from '../image2/logo.png'
+import logo from '../image2/eb055966-6724-43f8-bbcc-d50648a8de36_200x200(1).png';
 const items = [
   {
     src:'image/Vibrant_Girl.jpg',
@@ -17,7 +17,14 @@ const items = [
     key: '2'
   }
 ]
-const Home = () => {
+
+class Home extends React.Component{
+  constructor(){
+    super();
+    this.state = { showText: false}
+  }
+  
+  render() {
     return(
       <div>
         <UncontrolledCarousel items={items}/>
@@ -37,7 +44,9 @@ const Home = () => {
       </div>
   
     )
+  }
 }
+ 
 
 export default Home;
 

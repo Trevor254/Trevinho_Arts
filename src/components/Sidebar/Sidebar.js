@@ -1,7 +1,7 @@
 import React from 'react';
 import {Link} from 'react-router-dom'
 import './Sidebar.css';
-
+import logo from '../../image2/eb055966-6724-43f8-bbcc-d50648a8de36_200x200(1).png'
 const Sidebar = (props) => {
   let sidebarClasses = 'side-drawer';
 
@@ -11,6 +11,7 @@ const Sidebar = (props) => {
     return(
        <nav className={sidebarClasses}>
          <div className="side-logo">
+           <img className="title-logo" src={logo} alt=""/> 
            <p>TREVINHO ARTS</p>
          </div>
         <ul>

@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from '../image2/logo.png'
+import logo from '../image2/eb055966-6724-43f8-bbcc-d50648a8de36_200x200(1).png';
 class Contact extends React.Component{
     constructor(props){
         super(props)
@@ -39,18 +39,15 @@ class Contact extends React.Component{
                 <div>
                    <img className="title-logo" src={logo} alt=""/>
                 </div>
-
-                <br/>
                 
                 <h2 align="center" className="contact-title">Contact Details</h2>
-                <br/>
                 <br/>
                 <p align="center" className="text">
                     Hey there! Hopefully my art pieces have sparked your interest. 
                     If you wish to have one or request a unique sketch of your own, 
                     feel free to contact me with the provided details below;
                 </p>
-                <br/>
+
 
                 <div>
                     <ul className="list-container">

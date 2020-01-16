@@ -11,17 +11,17 @@
 }
 
 .toolbar_logo{
-    color:white;
+    color:rgb(149, 7, 7);
     text-decoration: none;
-    font-size:1.5rem;
-    margin-left:2rem;
+    font-size:1.0rem;
+    margin-left:2rem;   
 }
 
 .paragraph{
-    color:white;
+    color:rgb(149, 7, 7);
     text-decoration: none;
     font-size:1 rem;
-    font-family:"Times New Roman", Times, serif ;
+    font-family:'Gelasio', serif;
     margin-left:2rem;
 }
 
