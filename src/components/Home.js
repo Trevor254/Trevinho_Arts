@@ -15,6 +15,34 @@ const items = [
     caption: '',
     header: '@trevinho arts',
     key: '2'
+  },
+  {
+    src:'image/kurosaki_ichigo.jpg',
+    altText: 'Slide 3',
+    caption: '',
+    header: '@trevinho arts',
+    key: '3'
+  },
+  {
+    src:'image/madara_uchiha.jpg',
+    altText: 'Slide 4',
+    caption: '',
+    header: '@trevinho arts',
+    key: '4'
+  },
+  {
+    src:'image/lady_liberty.jpg',
+    altText: 'Slide 5',
+    caption: '',
+    header: '@trevinho arts',
+    key: '5'
+  },
+  {
+    src:'image/john_snow.jpg',
+    altText: 'Slide 6',
+    caption: '',
+    header: '@trevinho arts',
+    key: '6'
   }
 ]
 
