@@ -34,10 +34,10 @@ const items = [
   },
   {
     src:'image/john_snow.jpg',
-    altText: 'Slide 6',
+    altText: 'Slide 5',
     caption: '',
     header: '@trevinho arts',
-    key: '6'
+    key: '5'
   }
 ]
 
