@@ -21,6 +21,7 @@ class Gallery2 extends React.Component{
                                     onClick={
                                      ()=>{
                                     value.addToCart(id);
+                                    value.openModal(id);
                                    }
                                  }
                                  >

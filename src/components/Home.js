@@ -1,6 +1,8 @@
 import React from 'react';
 import { UncontrolledCarousel } from 'reactstrap';
 import logo from '../image2/eb055966-6724-43f8-bbcc-d50648a8de36_200x200(1).png';
+
+
 const items = [
   {
     src:'image/Vibrant_Girl.jpg',
@@ -30,13 +32,7 @@ const items = [
     header: '@trevinho arts',
     key: '4'
   },
-  {
-    src:'image/lady_liberty.jpg',
-    altText: 'Slide 5',
-    caption: '',
-    header: '@trevinho arts',
-    key: '5'
-  },
+ ,
   {
     src:'image/john_snow.jpg',
     altText: 'Slide 6',
@@ -47,11 +43,7 @@ const items = [
 ]
 
 class Home extends React.Component{
-  constructor(){
-    super();
-    this.state = { showText: false}
-  }
-  
+
   render() {
     return(
       <div>
@@ -68,7 +60,7 @@ class Home extends React.Component{
         and draws on various inspirations be it famous people , landscapes, animals, fictional characters, cultural media etc. 
         Most of my sketches are by reference from pictures that are gotten from the Internet upon which i attempt to draw exactly
         as what the picture depicts with successful attempts.
-        </p>
+        </p> 
       </div>
   
     )
@@ -78,3 +70,4 @@ class Home extends React.Component{
 
 export default Home;
 
+   
