@@ -32,7 +32,13 @@ const items = [
     header: '@trevinho arts',
     key: '4'
   },
- ,
+  {
+    src:'image/lady_liberty.jpg',
+    altText: 'Slide 5',
+    caption: '',
+    header: '@trevinho arts',
+    key: '5'
+  },
   {
     src:'image/john_snow.jpg',
     altText: 'Slide 6',
