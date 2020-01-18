@@ -12,15 +12,12 @@ import About from './components/About';
 import Footer from './components/Footer/Footer';
 import Gallery from './components/Gallery';
 import Details from './components/Details';
-//import Cart from './components/Cart';
+import Cart from './components/Cart';
 import Contact from './components/Contact';
+import Modal from './components/Modal';
 
 
-
-
-
-   class App extends React.Component{
-
+class App extends React.Component{
   state = {
     SidebarOpen: false
   }
@@ -62,7 +59,9 @@ import Contact from './components/Contact';
             <Route path="/gallery" component={Gallery}/>
             <Route path="/details" component={Details}/>
             <Route path="/contact" component={Contact}/>
+            <Route path="/cart" component={Cart}/>
           </Switch>
+          <Modal />
           <Footer/>
         </div>
         
