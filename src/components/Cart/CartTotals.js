@@ -11,8 +11,38 @@ export default function CartTotals({value}) {
                        <Link to="/gallery">
                           <button 
                           className="btn btn-outline-danger text-uppercase mb-3 px-5" 
-                          type="button">clear cart</button>
+                          type="button"
+                          onClick={()=> {
+                              clearCart()
+                          }}
+                          >clear cart</button>
                        </Link>
+                       <h5>
+                           <span className="text-light">
+                               subtotal :
+                           </span>
+                           <strong className="strong">
+                               $ {cartSubtotal}
+                           </strong>
+                       </h5>
+
+                       <h5>
+                           <span className="text-light">
+                               tax :
+                           </span>
+                           <strong className="strong">
+                               $ {cartTax}
+                           </strong>
+                       </h5>
+                       
+                       <h5>
+                           <span className="text-light">
+                               total :
+                           </span>
+                           <strong className="strong">
+                               $ {cartTotal}
+                           </strong>
+                       </h5>
                     </div>
                 </div>
             
