@@ -42,8 +42,8 @@ class Gallery2 extends React.Component{
                         </p>
 
                         <h5 className="text-blue font-italic mb-0">
+                        <span className="mr-1">$</span>
                             {price}
-                            <span className="mr-1">/=</span>
                         </h5>
 
                     </div>
