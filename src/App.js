@@ -8,7 +8,7 @@ import Backdrop from './components/Backdrop/Backdrop';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Home from './components/Home';
 import About from './components/About';
-//import Footer from './components/Footer/Footer';
+import Footer from './components/Footer/Footer';
 import Gallery from './components/Gallery';
 import Details from './components/Details';
 import Cart from './components/Cart';
@@ -61,6 +61,7 @@ class App extends React.Component{
             <Route path="/cart" component={Cart}/>
           </Switch>
           <Modal />
+          <Footer />
         </div>
       </BrowserRouter>
       </ProductProvider>
