@@ -95,11 +95,35 @@ class ProductProvider extends Component{
     }
     //this method will remove item from cart
     removeItem = id => {
-        console.log('remove item')
+        let tempProducts = [...this.state.products];
+        let tempCart = [...this.state.cart];
+
+        tempCart = tempCart.filter(item => item.id !== id);
+        const index = tempProducts.indexOf(this.getItem(id));
+
+        let removedProduct = tempProducts[index];
+        removedProduct.inCart = false;
+
+        removedProduct.count = 0;
+        removedProduct.total = 0;
+        
+        this.setState(()=>{
+            return{
+                cart:[...tempCart],
+                products:[...tempProducts]
+            }
+        },()=>{
+            this.addTotals();
+        })
     }
     //this method will clear item from the cart
     clearCart = () =>{
-      console.log('cart cleared')
+      this.setState(()=>{
+          return { cart : [] }
+      }, () => {
+          this.setProducts();
+          this.addTotals();
+      })
     }
     
     //this method is to add totals in cart page
