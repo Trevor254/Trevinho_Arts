@@ -16,7 +16,7 @@ const Toolbar = (props) => {
                   <ToggleButton click={props.toggleClickHandler} />
                 </div>
 
-                <div className="toolbar_logo">
+                <div className="toolbar_logo2">
                    <img className="title-logo" src={logo} alt=""/> 
                    <p className="paragraph">Trevinho Pencil Arts</p>
                 </div>

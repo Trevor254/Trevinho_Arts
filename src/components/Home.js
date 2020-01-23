@@ -48,7 +48,7 @@ class Home extends React.Component{
       <div>
         <UncontrolledCarousel items={items}/>
         <div>
-        <img className="title-logo" src={logo} alt=""/> 
+        <img className="title-logo1" src={logo} alt=""/> 
         </div>
         <h2 align="center" className="Main-title">Welcome To Trevinho's Pencil Arts</h2>
       </div>

@@ -14,7 +14,7 @@ body{
 
 /*-------------------------------------------------------Home Page----------------------------------------------*/
 
-.title-logo{
+.title-logo1{
     max-width:100%;
     height:auto;
     max-height:300px;
@@ -172,7 +172,7 @@ body{
     display:table;
     margin: 0 auto;
     color: maroon;
-    font-size: 19px;
+    font-size: 1px;
     opacity: 0.9;
   }
 
