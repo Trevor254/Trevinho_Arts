@@ -3,9 +3,8 @@
     padding:0;
 }
 
-html, body {min-height: 100%;}
 
-body{
+html,body{
     background: url(./image2/Kurosaki_Ichigo.jpg) no-repeat center center fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
