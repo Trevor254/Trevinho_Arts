@@ -19,7 +19,7 @@ class Cart extends React.Component {
                                   <h2 className="col-10 mx-auto my-2 text-center text-light">Your Cart</h2>
                                   <CartColumns/>
                                   <CartList value={value}/>
-                                  <CartTotals value={value} />
+                                  <CartTotals value={value} history={this.props.history}/>
                                </div>
                             )
                         } else {
