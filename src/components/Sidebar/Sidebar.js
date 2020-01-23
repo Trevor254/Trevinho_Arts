@@ -12,7 +12,7 @@ const Sidebar = (props) => {
        <nav className={sidebarClasses}>
          <div className="side-logo">
            <img className="title-logo" src={logo} alt=""/> 
-           <p>TREVINHO ARTS</p>
+           <p>Trevinho Pencil Arts</p>
          </div>
         <ul>
          <li>
