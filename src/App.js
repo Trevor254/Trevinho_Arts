@@ -61,7 +61,6 @@ class App extends React.Component{
             <Route path="/cart" component={Cart}/>
           </Switch>
           <Modal />
-          
         </div>
       </BrowserRouter>
       </ProductProvider>
