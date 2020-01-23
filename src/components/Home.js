@@ -47,7 +47,6 @@ class Home extends React.Component{
     return(
       <div>
         <UncontrolledCarousel items={items}/>
-        <br/>
         <div>
         <img className="title-logo" src={logo} alt=""/> 
         </div>

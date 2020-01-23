@@ -18,7 +18,7 @@ const Toolbar = (props) => {
 
                 <div className="toolbar_logo">
                    <img className="title-logo" src={logo} alt=""/> 
-                   <p className="paragraph">TREVINHO PENCIL ARTS</p>
+                   <p className="paragraph">Trevinho Pencil Arts</p>
                 </div>
 
                 <div className="spacer"/>

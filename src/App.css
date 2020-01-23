@@ -29,7 +29,7 @@ body{
 .Main-title{
     font-size:35px;
     font-family:'Gelasio', serif;
-    color:rgb(149, 7, 7);
+    color:rgba(234, 144, 10, 0.884);
     opacity: 0.9;
 }
 
@@ -61,12 +61,13 @@ body{
 
 .header3{
   font-size: 30px;
-  color:rgb(149, 7, 7);
+  color:rgba(234, 144, 10, 0.884);
 }
 
-.text-light{
-  font-size: small;
+.text{
+  font-size: medium;
   letter-spacing:2px;
+  color:maroon;
 }
 
 /*---------------------------------------------------------Contact Page------------------------------------------------------------------*/
@@ -74,16 +75,16 @@ body{
 .contact-title{
     font-size:35px;
     font-family:'Gelasio', serif;
-    color:rgb(149, 7, 7);
+    color:rgba(234, 144, 10, 0.884);
     opacity: 0.9;
 }
 
 .text{
     width:auto;
-    font-size: 17px;
+    font-size: 1rem;
     font-weight: bold;
     font-family:'Gelasio', serif;
-    color:rgb(192, 195, 13);
+    color:maroon;
     justify-content: space-around;
     opacity: 0.9;
 }
@@ -170,7 +171,7 @@ body{
     max-height:300px;
     display:table;
     margin: 0 auto;
-    color: rgb(192, 195, 13);
+    color: maroon;
     font-size: 17px;
     opacity: 0.9;
   }
