@@ -41,7 +41,6 @@ class Contact extends React.Component{
                 </div>
                 
                 <h2 align="center" className="contact-title">Contact Details</h2>
-                <br/>
                 <p align="center" className="text">
                     Hey there! Hopefully my art pieces have sparked your interest. 
                     If you wish to have one or request a unique sketch of your own, 
