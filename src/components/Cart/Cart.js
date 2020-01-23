@@ -1,5 +1,5 @@
 import React from 'react';
-import Title from '../Title';
+//import Title from '../Title';
 import CartColumns from './CartColumns';
 import EmptyCart from './EmptyCart';
 import {ProductConsumer} from '../../Context';
@@ -16,7 +16,7 @@ class Cart extends React.Component {
                         if(cart.length > 0){
                             return(
                                <div>
-                                  <Title name="your" title="cart"/>
+                                  <h2 className="col-10 mx-auto my-2 text-center text-light">Your Cart</h2>
                                   <CartColumns/>
                                   <CartList value={value}/>
                                   <CartTotals value={value} />

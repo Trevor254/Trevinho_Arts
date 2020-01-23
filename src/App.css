@@ -211,6 +211,12 @@ body{
   .strong{
     color:white;
   }
+
+  .cart-title{
+    color:white;
+    align-items: center;
+    justify-content: center;
+  }
   
   
 
