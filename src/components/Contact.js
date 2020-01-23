@@ -37,7 +37,7 @@ class Contact extends React.Component{
         return (
             <div>
                 <div>
-                   <img className="title-logo" src={logo} alt=""/>
+                   <img className="title-logo4" src={logo} alt=""/>
                 </div>
                 
                 <h2 align="center" className="contact-title">Contact Details</h2>
