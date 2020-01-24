@@ -3,10 +3,10 @@
 	padding:0;
 }
 
- /* .footer-distributed{
+  .footer-distributed{
 	background-color:  rgb(255, 154, 3);
 	box-shadow: 0 1px 1px 0 rgba(153, 75, 75, 0.12);
-	height:20px;
+	height:40px;
 	width: 100%;
 	text-align: left;
 	font: bold 15px sans-serif;
@@ -15,17 +15,17 @@
 	display:flex;
 
 	
-} */
+} 
 
 
 
-/* .footer-distributed .footer-company-name{
+ .footer-distributed .footer-company-name{
 	color:  white;
 	font-size: 18px;
 	font-weight: normal;
 	margin: 0;
 	flex:1;
-}  */
+}  
 
 
 @media (max-width:769px){
